@@ -30,7 +30,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-// public
+#pragma mark - public methods
 
 - (void) newGame {
     self.actionOutlet.enabled = NO;
@@ -98,7 +98,7 @@
     [self newGame];
 }
 
-// private
+#pragma mark - private methods
 
 - (void) updateScreen {
     WSTile *currentTile = [self currentTile];

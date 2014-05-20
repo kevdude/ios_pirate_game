@@ -10,6 +10,8 @@
 
 @implementation WSCharacter
 
+#pragma mark - public methods
+
 - (void) takeAid:(int) aid {
     self.health = self.health + aid;
 }
